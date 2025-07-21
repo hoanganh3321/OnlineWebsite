@@ -1,0 +1,120 @@
+﻿@model IEnumerable<ClassLibraryDATA.Models.Message>
+
+<h2>Lịch sử chat</h2>
+
+<div id="chatBox">
+    @foreach (var msg in Model)
+    {
+        var isSent = msg.SenderId == Context.Session.GetInt32("UserID");
+        <div class="message @(isSent ? "sent" : "received")">
+            @msg.Content
+            <span class="time">@msg.SentAt.ToString("HH:mm")</span>
+        </div>
+    }
+</div>
+
+<input type="text" id="messageInput" placeholder="Nhập tin nhắn..." style="width:80%" />
+<button id="sendButton">Gửi</button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.0/signalr.min.js"></script>
+<script>
+    const userId = "@(Context.Session.GetInt32("UserID")?.ToString() ?? "0")";
+    console.log("[DEBUG] userId từ session:", userId);
+
+    const chatBox = document.getElementById("chatBox");
+
+    // Kết nối SignalR
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl(`https://localhost:7224/chatHub?UserID=${userId}`)
+        .build();
+
+    // Nhận tin nhắn real-time
+    connection.on("ReceiveMessage", function (senderId, message, sentAt) {
+        console.log("[DEBUG] Nhận tin nhắn:", { senderId, message, sentAt });
+        appendMessage(senderId, message, sentAt, senderId === parseInt(userId));
+    });
+
+    connection.start()
+        .then(() => {
+            console.log("[DEBUG] Kết nối SignalR thành công");
+            document.getElementById("sendButton").addEventListener("click", sendMessage);
+        })
+        .catch(err => console.error("[DEBUG] Lỗi kết nối SignalR:", err));
+
+    async function sendMessage() {
+        const message = document.getElementById("messageInput").value.trim();
+        if (!message) {
+            console.log("[DEBUG] Tin nhắn rỗng, không gửi");
+            return;
+        }
+        console.log("[DEBUG] Gửi tin nhắn:", { userId: parseInt(userId), receiverId: 3, message });
+        try {
+            await connection.invoke("SendMessage", parseInt(userId), 3, message);
+            console.log("[DEBUG] Gửi tin nhắn thành công");
+          //  appendMessage(userId, message, new Date().toISOString(), true);
+            document.getElementById("messageInput").value = "";
+        } catch (err) {
+            console.error("[DEBUG] Lỗi khi gửi tin nhắn:", err);
+            alert("Không thể gửi tin nhắn. Chi tiết: " + err.message);
+        }
+    }
+
+    //   hiển thị tin nhắn 
+    function appendMessage(senderId, message, sentAt, isSent) {
+        const msgDiv = document.createElement("div");
+        msgDiv.classList.add("message", isSent ? "sent" : "received");
+
+        const time = new Date(sentAt).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+        msgDiv.innerHTML = `
+            ${message}
+            <span class="time">${time}</span>
+        `;
+
+        chatBox.appendChild(msgDiv);
+        chatBox.scrollTop = chatBox.scrollHeight;
+    }
+</script>
+
+<style>
+    .message {
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0;
+        max-width: 70%;
+        word-wrap: break-word;
+        padding: 8px 12px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+     
+        .message.sent {
+            margin-left: auto;
+            background-color: #DCF8C6; 
+            text-align: right;
+        }
+
+       
+        .message.received {
+            margin-right: auto;
+            background-color: #FFF;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+    .time {
+        display: block;
+        font-size: 10px;
+        color: #666;
+        margin-top: 3px;
+    }
+
+    #chatBox {
+        border: 1px solid #ccc;
+        height: 300px;
+        overflow-y: auto;
+        padding: 5px;
+        background: #f5f5f5;
+    }
+</style>

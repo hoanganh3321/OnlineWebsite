@@ -1,0 +1,17 @@
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\bin\Debug\net8.0\ClassLibrarySERVICES.deps.json
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\bin\Debug\net8.0\ClassLibrarySERVICES.dll
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\bin\Debug\net8.0\ClassLibrarySERVICES.pdb
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\bin\Debug\net8.0\ClassLibraryDATA.dll
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\bin\Debug\net8.0\ClassLibraryREPO.dll
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\bin\Debug\net8.0\ClassLibraryDATA.pdb
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\bin\Debug\net8.0\ClassLibraryREPO.pdb
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\obj\Debug\net8.0\ClassLibrarySERVICES.csproj.AssemblyReference.cache
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\obj\Debug\net8.0\ClassLibrarySERVICES.GeneratedMSBuildEditorConfig.editorconfig
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\obj\Debug\net8.0\ClassLibrarySERVICES.AssemblyInfoInputs.cache
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\obj\Debug\net8.0\ClassLibrarySERVICES.AssemblyInfo.cs
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\obj\Debug\net8.0\ClassLibrarySERVICES.csproj.CoreCompileInputs.cache
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\obj\Debug\net8.0\ClassLib.494EE3C1.Up2Date
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\obj\Debug\net8.0\ClassLibrarySERVICES.dll
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\obj\Debug\net8.0\refint\ClassLibrarySERVICES.dll
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\obj\Debug\net8.0\ClassLibrarySERVICES.pdb
+D:\prn232\PROJECTP_RN232\ClassLibrarySERVICES\obj\Debug\net8.0\ref\ClassLibrarySERVICES.dll

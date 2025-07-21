@@ -1,0 +1,43 @@
+﻿@model ClassLibraryDATA.DTO.FoodDTO
+
+<h2>Chi tiết món ăn</h2>
+
+@if (Model == null)
+{
+    <p class="text-danger">Không tìm thấy món ăn.</p>
+}
+else
+{
+    <div class="card" style="width: 18rem;">
+        <img src="@Model.ImageUrl" class="card-img-top" alt="@Model.Name" />
+        <div class="card-body">
+            <h5 class="card-title">@Model.Name</h5>
+            <p class="card-text">@Model.Description</p>
+            <p><strong>Giá:</strong> @Model.Price.ToString("N0") VNĐ</p>
+            <p><strong>Danh mục:</strong> @(Model.Category?.CategoryName ?? "Không có danh mục")</p>
+            <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Quay lại</a>
+			@if (Context.Session.GetString("UserRole") == "Customer")
+			{
+				<form method="post" asp-action="Order" asp-controller="Orders">
+					<input type="hidden" name="foodId" value="@Model.FoodId" />
+
+					<label for="quantity">Số lượng:</label>
+					<input type="number" id="quantity" name="quantity" value="1" min="1"
+					class="form-control"
+					style="width: 100px; display: inline-block;" />
+					@if (@Model.IsAvailable == true)
+					{
+
+						<button type="submit" class="btn btn-success">
+							 Đặt món ngay
+						</button>
+					}
+					else
+					{
+						<a>Hết hàng</a>
+					}
+				</form>
+			}
+		</div>
+    </div>
+}

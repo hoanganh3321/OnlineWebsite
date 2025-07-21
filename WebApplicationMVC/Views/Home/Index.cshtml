@@ -1,0 +1,77 @@
+﻿@model IEnumerable<ClassLibraryDATA.DTO.FoodDTO>
+@{
+    ViewBag.Title = "Danh sách món ăn";
+    var input = ViewBag.UserInput as string ?? "";
+    var aiKeywords = ViewBag.AIKeywords as List<string> ?? new List<string>();
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["ErrorMessage"]
+    </div>
+}
+<h2>@ViewBag.Title</h2>
+
+<form asp-controller="Home" asp-action="SuggestFood" method="post" class="mb-4">
+    <div class="input-group">
+        <input type="text" name="userInput" class="form-control"
+               placeholder="Bạn muốn ăn gì hôm nay? ví dụ: món cay, món nóng..."
+               value="@input" required />
+        <button type="submit" class="btn btn-primary">Gợi ý món</button>
+    </div>
+</form>
+
+@if (!string.IsNullOrEmpty(input))
+{
+    <p class="text-muted">
+        Bạn đã yêu cầu: <strong>@input</strong>
+    </p>
+}
+
+@if (Model.Any())
+{
+
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card food-card shadow-sm h-100">
+                    <img src="@item.ImageUrl" class="card-img-top" alt="@item.Name"
+                         style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Name</h5>
+                        <p class="card-text text-danger fw-bold">
+                            @item.Price.ToString("N0", new System.Globalization.CultureInfo("vi-VN")) ₫
+                        </p>
+                        <p>
+                            @if (item.IsAvailable == true)
+                            {
+                                <span class="text-success">Còn hàng</span>
+                                <a asp-controller="Foods" asp-action="Detail" asp-route-foodId="@item.FoodId" class="btn btn-info">🔍 Xem</a>
+                            }
+                            else
+                            {
+                                <span class="text-danger">Hết hàng</span>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else if (aiKeywords.Any())
+{
+    <div class="alert alert-warning">
+        😕 Không tìm thấy món ăn phù hợp trong cơ sở dữ liệu.<br />
+        Bạn có thể thử yêu cầu khác, hoặc chọn từ danh sách AI gợi ý:
+        <strong>@string.Join(", ", aiKeywords)</strong>
+    </div>
+}

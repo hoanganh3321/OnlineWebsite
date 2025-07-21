@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryDATA", "ClassLibraryDATA\ClassLibraryDATA.csproj", "{CC48A78C-3828-4534-8358-F3F1121909FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationMVC", "WebApplicationMVC\WebApplicationMVC.csproj", "{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationAPI", "WebApplicationAPI\WebApplicationAPI.csproj", "{B6198F04-A19D-4847-848A-E94B9D3B1265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryREPO", "ClassLibraryREPO\ClassLibraryREPO.csproj", "{56655496-CF25-4867-92BD-9BA89A5AA5F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrarySERVICES", "ClassLibrarySERVICES\ClassLibrarySERVICES.csproj", "{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ai_suggestion", "ai_suggestion", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		ai_api.py = ai_api.py
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC48A78C-3828-4534-8358-F3F1121909FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC48A78C-3828-4534-8358-F3F1121909FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC48A78C-3828-4534-8358-F3F1121909FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC48A78C-3828-4534-8358-F3F1121909FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6198F04-A19D-4847-848A-E94B9D3B1265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6198F04-A19D-4847-848A-E94B9D3B1265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6198F04-A19D-4847-848A-E94B9D3B1265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6198F04-A19D-4847-848A-E94B9D3B1265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56655496-CF25-4867-92BD-9BA89A5AA5F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56655496-CF25-4867-92BD-9BA89A5AA5F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56655496-CF25-4867-92BD-9BA89A5AA5F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56655496-CF25-4867-92BD-9BA89A5AA5F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01D88949-A8F5-41E0-BB91-3DFF4F89A06B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,41 @@
+﻿<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.0/signalr.min.js"></script>
+<script>
+    const userId = "@(Context.Session.GetInt32("UserID")?.ToString() ?? "0")";
+    const receiverId = "3";
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl(`/chatHub?UserID=${userId}`)
+        .build();
+
+    async function loadChatHistory() {
+        try {
+            const response = await fetch(`chat/history/${receiverId}`);
+            if (response.ok) {
+                const messages = await response.json();
+                const chatBox = document.getElementById("chatBox");
+                messages.forEach(msg => {
+                    const div = document.createElement("div");
+                    div.textContent = `${msg.senderId} (${msg.sentAt}): ${msg.content}`;
+                    chatBox.appendChild(div);
+                });
+                chatBox.scrollTop = chatBox.scrollHeight;
+            }
+        } catch (err) {
+            console.error("Lỗi khi lấy lịch sử chat:", err);
+        }
+    }
+
+    connection.on("ReceiveMessage", function (senderId, message, sentAt) {
+        const msg = document.createElement("div");
+        msg.textContent = `${senderId} (${sentAt}): ${message}`;
+        document.getElementById("chatBox").appendChild(msg);
+        document.getElementById("chatBox").scrollTop = document.getElementById("chatBox").scrollHeight;
+    });
+
+    connection.start()
+        .then(() => loadChatHistory())
+        .catch(err => console.error(err));
+</script>
+
+<div id="chatBox" style="border:1px solid #ccc; height:200px; overflow:auto;"></div>
+<input type="text" id="messageInput" />
+<button onclick="sendMessage()">Send</button>

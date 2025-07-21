@@ -1,0 +1,566 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\prn232\\PROJECTP_RN232\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232\\webapplicationapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232\\webapplicationapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232\\webapplicationapi\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232\\webapplicationapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232\\webapplicationapi\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\controllers\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\views\\home\\chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\home\\chat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\views\\chats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\chats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\views\\foods\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\foods\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\controllers\\adminchatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\adminchatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\views\\adminchats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\adminchats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232\\webapplicationapi\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\controllers\\chatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\chatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\controllers\\foodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\foodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56655496-CF25-4867-92BD-9BA89A5AA5F7}|ClassLibraryREPO\\ClassLibraryREPO.csproj|d:\\prn232\\projectp_rn232\\classlibraryrepo\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56655496-CF25-4867-92BD-9BA89A5AA5F7}|ClassLibraryREPO\\ClassLibraryREPO.csproj|solutionrelative:classlibraryrepo\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56655496-CF25-4867-92BD-9BA89A5AA5F7}|ClassLibraryREPO\\ClassLibraryREPO.csproj|d:\\prn232\\projectp_rn232\\classlibraryrepo\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56655496-CF25-4867-92BD-9BA89A5AA5F7}|ClassLibraryREPO\\ClassLibraryREPO.csproj|solutionrelative:classlibraryrepo\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|d:\\prn232\\projectp_rn232\\classlibraryservices\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|solutionrelative:classlibraryservices\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|d:\\prn232\\projectp_rn232\\classlibraryservices\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|solutionrelative:classlibraryservices\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232\\webapplicationapi\\authorize\\attributerole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\authorize\\attributerole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232\\webapplicationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232\\webapplicationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232\\webapplicationmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC48A78C-3828-4534-8358-F3F1121909FD}|ClassLibraryDATA\\ClassLibraryDATA.csproj|d:\\prn232\\projectp_rn232\\classlibrarydata\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC48A78C-3828-4534-8358-F3F1121909FD}|ClassLibraryDATA\\ClassLibraryDATA.csproj|solutionrelative:classlibrarydata\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC48A78C-3828-4534-8358-F3F1121909FD}|ClassLibraryDATA\\ClassLibraryDATA.csproj|d:\\prn232\\projectp_rn232\\classlibrarydata\\models\\fooddelivercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC48A78C-3828-4534-8358-F3F1121909FD}|ClassLibraryDATA\\ClassLibraryDATA.csproj|solutionrelative:classlibrarydata\\models\\fooddelivercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC48A78C-3828-4534-8358-F3F1121909FD}|ClassLibraryDATA\\ClassLibraryDATA.csproj|d:\\prn232\\projectp_rn232\\classlibrarydata\\dto\\fooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC48A78C-3828-4534-8358-F3F1121909FD}|ClassLibraryDATA\\ClassLibraryDATA.csproj|solutionrelative:classlibrarydata\\dto\\fooddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232\\webapplicationapi\\webapplicationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\webapplicationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1154,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IMessageRepository.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\IMessageRepository.cs",
+              "RelativeDocumentMoniker": "ClassLibraryREPO\\IMessageRepository.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\IMessageRepository.cs",
+              "RelativeToolTip": "ClassLibraryREPO\\IMessageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:57:21.399Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "ClassLibraryREPO\\MessageRepository.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\MessageRepository.cs",
+              "RelativeToolTip": "ClassLibraryREPO\\MessageRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAewBwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:57:45.697Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "WebApplicationAPI\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwCMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:25:46.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebApplicationAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:25:42.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\Controllers\\ChatController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "WebApplicationAPI\\Controllers\\ChatController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:23:01.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AIController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Controllers\\AIController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\Controllers\\AIController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Controllers\\AIController.cs",
+              "RelativeToolTip": "WebApplicationAPI\\Controllers\\AIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T15:03:48.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FoodController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Controllers\\FoodController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\Controllers\\FoodController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Controllers\\FoodController.cs",
+              "RelativeToolTip": "WebApplicationAPI\\Controllers\\FoodController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:24:14.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T13:57:10.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Chat.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Home\\Chat.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Home\\Chat.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Home\\Chat.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Home\\Chat.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T13:13:30.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Chats\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Chats\\Index.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Chats\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Chats\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T13:18:32.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Foods\\Detail.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Foods\\Detail.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Foods\\Detail.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Foods\\Detail.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T15:23:46.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Users\\Index.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T18:45:02.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminChatsController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Controllers\\AdminChatsController.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\AdminChatsController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Controllers\\AdminChatsController.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Controllers\\AdminChatsController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwDcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T15:38:28.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\AdminChats\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\AdminChats\\Index.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\AdminChats\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\AdminChats\\Index.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAIAwwJUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T15:33:05.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T18:13:12.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:24:55.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AttributeRole.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Authorize\\AttributeRole.cs",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\Authorize\\AttributeRole.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Authorize\\AttributeRole.cs",
+              "RelativeToolTip": "WebApplicationAPI\\Authorize\\AttributeRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T15:24:15.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\appsettings.json",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\appsettings.json",
+              "RelativeToolTip": "WebApplicationAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T14:35:08.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T13:57:08.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T13:54:53.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\ChatHub.cs",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\ChatHub.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\ChatHub.cs",
+              "RelativeToolTip": "WebApplicationAPI\\ChatHub.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwDsAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:45:10.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Program.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Program.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Program.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:45:16.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "ClassLibraryDATA\\Models\\Message.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\Models\\Message.cs",
+              "RelativeToolTip": "ClassLibraryDATA\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:38:11.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FoodDeliverContext.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\Models\\FoodDeliverContext.cs",
+              "RelativeDocumentMoniker": "ClassLibraryDATA\\Models\\FoodDeliverContext.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\Models\\FoodDeliverContext.cs",
+              "RelativeToolTip": "ClassLibraryDATA\\Models\\FoodDeliverContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:33:49.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FoodDTO.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\DTO\\FoodDTO.cs",
+              "RelativeDocumentMoniker": "ClassLibraryDATA\\DTO\\FoodDTO.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\DTO\\FoodDTO.cs",
+              "RelativeToolTip": "ClassLibraryDATA\\DTO\\FoodDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:30:30.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:24:54.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FoodsController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Controllers\\FoodsController.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\FoodsController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Controllers\\FoodsController.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Controllers\\FoodsController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:24:23.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChatsController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Controllers\\ChatsController.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\ChatsController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\Controllers\\ChatsController.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Controllers\\ChatsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:21:51.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WebApplicationAPI",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\WebApplicationAPI.csproj",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\WebApplicationAPI.csproj",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\WebApplicationAPI.csproj",
+              "RelativeToolTip": "WebApplicationAPI\\WebApplicationAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-21T13:06:44.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\Program.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\Program.cs",
+              "RelativeToolTip": "WebApplicationAPI\\Program.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAkwGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:05:03.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\ClassLibrarySERVICES\\MessageService.cs",
+              "RelativeDocumentMoniker": "ClassLibrarySERVICES\\MessageService.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\ClassLibrarySERVICES\\MessageService.cs",
+              "RelativeToolTip": "ClassLibrarySERVICES\\MessageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:00:06.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IMessageService.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232\\ClassLibrarySERVICES\\IMessageService.cs",
+              "RelativeDocumentMoniker": "ClassLibrarySERVICES\\IMessageService.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232\\ClassLibrarySERVICES\\IMessageService.cs",
+              "RelativeToolTip": "ClassLibrarySERVICES\\IMessageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:59:01.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
