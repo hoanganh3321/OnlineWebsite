@@ -4,7 +4,16 @@
 }
 
 <h2>@ViewData["Title"]</h2>
+@{
+    var message = Context.Request.Query["message"].ToString();
+}
 
+@if (!string.IsNullOrEmpty(message))
+{
+    <div class="alert @(message.Contains("✅") ? "alert-success" : "alert-danger")">
+        @message
+    </div>
+}
 @if (!Model.Any())
 {
     <p class="text-danger">Bạn chưa có đơn hàng nào!</p>
@@ -92,7 +101,6 @@ else
                     alert("Không thể tạo yêu cầu thanh toán!");
                     return;
                 }
-
                 const data = await response.json();
                 if (data.paymentUrl) {
                     window.location.href = data.paymentUrl; 

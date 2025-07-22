@@ -107,5 +107,44 @@ namespace ClassLibrarySERVICES
             byte[] hashValue = hmac.ComputeHash(Encoding.UTF8.GetBytes(inputData));
             return BitConverter.ToString(hashValue).Replace("-", "").ToLower(); // trả về lowercase
         }
+
+        public (bool IsValid, string RspCode, string Message, string DebugUrl) ProcessIpn(IQueryCollection query)
+        {
+            // ✅ 1. Lấy toàn bộ tham số và sort
+            var vnp_Params = query
+                .Where(x => x.Key.StartsWith("vnp_") &&
+                            x.Key != "vnp_SecureHash" &&
+                            x.Key != "vnp_SecureHashType")
+                .ToDictionary(k => k.Key, v => v.Value.ToString());
+
+            var sorted = new SortedDictionary<string, string>(vnp_Params);
+
+            // ✅ 2. Build SignData giống hệt format VNPAY
+            string signData = string.Join("&", sorted.Select(kv => $"{kv.Key}={UrlEncodeVNPay(kv.Value)}"));
+            string localHash = HmacSHA512(_config["VnPay:HashSecret"], signData);
+            string vnpSecureHash = query["vnp_SecureHash"].ToString();
+
+            // ✅ 3. Tạo debug URL đúng chuẩn format tài liệu
+            string finalDebugUrl =
+                $"{_config["VnPay:IpnDebugDomain"]}?{string.Join("&", sorted.Select(kv => $"{kv.Key}={UrlEncodeVNPay(kv.Value)}"))}&vnp_SecureHash={vnpSecureHash}";
+
+            Console.WriteLine("====== VNPay IPN Debug ======");
+            Console.WriteLine("SignData : " + signData);
+            Console.WriteLine("LocalHash: " + localHash);
+            Console.WriteLine("VnPayHash: " + vnpSecureHash);
+            Console.WriteLine("DebugURL : " + finalDebugUrl);
+            Console.WriteLine("=============================");
+
+            if (localHash != vnpSecureHash)
+                return (false, "97", "Invalid signature", finalDebugUrl);
+
+            // ✅ 4. Kiểm tra logic đơn hàng (Ví dụ gọi PaymentService)
+            // -> Logic thực tế bạn tự gọi sang DB để update nhé
+
+            if (query["vnp_ResponseCode"] == "00" && query["vnp_TransactionStatus"] == "00")
+                return (true, "00", "Confirm Success", finalDebugUrl);
+            else
+                return (true, "00", "Confirm Failed", finalDebugUrl);
+        }
     }
 }

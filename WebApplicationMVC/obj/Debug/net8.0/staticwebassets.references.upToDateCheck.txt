@@ -89,3 +89,9 @@ D:\prn232\PROJECTP_RN232 - Copy\WebApplicationAPI\obj\Debug\net8.0\staticwebasse
 D:\prn232\PROJECTP_RN232 - Copy\WebApplicationAPI\obj\Debug\net8.0\staticwebassets.build.json
 D:\prn232\PROJECTP_RN232 - Copy\WebApplicationAPI\obj\Debug\net8.0\staticwebassets.build.json
 D:\prn232\PROJECTP_RN232 - Copy\WebApplicationAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\prn232\PROJECTP_RN232 - Copy\WebApplicationAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\prn232\PROJECTP_RN232 - Copy\WebApplicationAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\prn232\PROJECTP_RN232 - Copy\WebApplicationAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\prn232\PROJECTP_RN232 - Copy\WebApplicationAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\prn232\PROJECTP_RN232 - Copy\WebApplicationAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\prn232\PROJECTP_RN232 - Copy\WebApplicationAPI\obj\Debug\net8.0\staticwebassets.build.json

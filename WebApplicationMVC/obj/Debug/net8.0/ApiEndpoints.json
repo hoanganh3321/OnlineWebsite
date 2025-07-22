@@ -203,6 +203,16 @@
   },
   {
     "ContainingType": "WebApplicationAPI.Controllers.PaymentController",
+    "Method": "VnPayIpn",
+    "RelativePath": "api/Payment/vnpay-ipn",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplicationAPI.Controllers.PaymentController",
     "Method": "VnPayReturn",
     "RelativePath": "api/Payment/vnpay-return",
     "HttpMethod": "GET",

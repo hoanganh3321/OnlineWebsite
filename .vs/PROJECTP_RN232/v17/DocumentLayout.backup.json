@@ -3,67 +3,32 @@
   "WorkspaceRootPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\views\\orders\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\orders\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\controllers\\foodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\foodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|d:\\prn232\\projectp_rn232 - copy\\classlibraryservices\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|solutionrelative:classlibraryservices\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\views\\orders\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\orders\\vieworder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|d:\\prn232\\projectp_rn232 - copy\\classlibraryservices\\paymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|solutionrelative:classlibraryservices\\paymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|d:\\prn232\\projectp_rn232 - copy\\classlibraryservices\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|solutionrelative:classlibraryservices\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|d:\\prn232\\projectp_rn232 - copy\\classlibraryservices\\iorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|solutionrelative:classlibraryservices\\iorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationapi\\webapplicationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\webapplicationapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationapi\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\orders\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,198 +38,100 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1154,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FoodsController.cs",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Controllers\\FoodsController.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\FoodsController.cs",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Controllers\\FoodsController.cs",
-              "RelativeToolTip": "WebApplicationMVC\\Controllers\\FoodsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T13:22:18.062Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ViewOrder.cshtml",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Views\\Orders\\ViewOrder.cshtml",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Orders\\ViewOrder.cshtml",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Views\\Orders\\ViewOrder.cshtml",
-              "RelativeToolTip": "WebApplicationMVC\\Views\\Orders\\ViewOrder.cshtml",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAwFoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-22T11:42:32.032Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "WebApplicationAPI\\Controllers\\PaymentController.cs",
               "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\Controllers\\PaymentController.cs",
               "RelativeToolTip": "WebApplicationAPI\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMIAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAADgvzQAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T10:39:14.989Z",
+              "WhenOpened": "2025-07-22T13:56:09.089Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApplicationAPI\\appsettings.json",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\appsettings.json",
-              "RelativeToolTip": "WebApplicationAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-22T11:33:41.053Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "VnPayService.cs",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\VnPayService.cs",
-              "RelativeDocumentMoniker": "ClassLibrarySERVICES\\VnPayService.cs",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\VnPayService.cs",
-              "RelativeToolTip": "ClassLibrarySERVICES\\VnPayService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAWwBIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T10:39:36.842Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebApplicationAPI\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebApplicationAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-22T11:55:29.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\OrdersController.cs",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "WebApplicationMVC\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T12:28:03.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PaymentServices.cs",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\PaymentServices.cs",
-              "RelativeDocumentMoniker": "ClassLibrarySERVICES\\PaymentServices.cs",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\PaymentServices.cs",
-              "RelativeToolTip": "ClassLibrarySERVICES\\PaymentServices.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwBsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T12:23:19.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "WebApplicationAPI\\Controllers\\OrderController.cs",
               "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\Controllers\\OrderController.cs",
               "RelativeToolTip": "WebApplicationAPI\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T10:39:09.804Z"
+              "WhenOpened": "2025-07-22T15:11:40.994Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OrderServices.cs",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\OrderServices.cs",
-              "RelativeDocumentMoniker": "ClassLibrarySERVICES\\OrderServices.cs",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\OrderServices.cs",
-              "RelativeToolTip": "ClassLibrarySERVICES\\OrderServices.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T12:36:34.765Z"
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\appsettings.json",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\appsettings.json",
+              "RelativeToolTip": "WebApplicationAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-22T15:18:31.159Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IOrderServices.cs",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\IOrderServices.cs",
-              "RelativeDocumentMoniker": "ClassLibrarySERVICES\\IOrderServices.cs",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\IOrderServices.cs",
-              "RelativeToolTip": "ClassLibrarySERVICES\\IOrderServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T12:36:33.893Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WebApplicationAPI.csproj",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\WebApplicationAPI.csproj",
-              "RelativeDocumentMoniker": "WebApplicationAPI\\WebApplicationAPI.csproj",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\WebApplicationAPI.csproj",
-              "RelativeToolTip": "WebApplicationAPI\\WebApplicationAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-22T12:35:26.837Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ChatHub.cs",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\ChatHub.cs",
-              "RelativeDocumentMoniker": "WebApplicationAPI\\ChatHub.cs",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\ChatHub.cs",
-              "RelativeToolTip": "WebApplicationAPI\\ChatHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T12:31:37.532Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAAABEVAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-07-22T12:14:04.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebApplicationMVC\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebApplicationMVC\\Properties\\launchSettings.json",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\appsettings.json",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\appsettings.json",
+              "RelativeToolTip": "WebApplicationMVC\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-22T11:55:20.271Z"
+              "WhenOpened": "2025-07-22T15:18:20.241Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplicationAPI\\Program.cs",
-              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\Program.cs",
-              "RelativeToolTip": "WebApplicationAPI\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAWwA8AAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ViewOrder.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Views\\Orders\\ViewOrder.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Orders\\ViewOrder.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Views\\Orders\\ViewOrder.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Orders\\ViewOrder.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T15:12:47.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T11:59:55.931Z"
+              "WhenOpened": "2025-07-22T15:10:55.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T15:10:43.289Z",
+              "EditorCaption": ""
             }
           ]
         }
