@@ -3628,11 +3628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\WebApplicationAPI.csproj",
+      "projectUniqueName": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\WebApplicationAPI.csproj",
       "projectName": "WebApplicationAPI",
-      "projectPath": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\WebApplicationAPI.csproj",
+      "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\WebApplicationAPI.csproj",
       "packagesPath": "C:\\Users\\VICTUS HELLO\\.nuget\\packages\\",
-      "outputPath": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\obj\\",
+      "outputPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3653,14 +3653,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj": {
-              "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj"
+            "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj": {
+              "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj"
             },
-            "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\ClassLibraryREPO.csproj": {
-              "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\ClassLibraryREPO.csproj"
+            "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\ClassLibraryREPO.csproj": {
+              "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\ClassLibraryREPO.csproj"
             },
-            "D:\\prn232\\PROJECTP_RN232\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj": {
-              "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj"
+            "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj": {
+              "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj"
             }
           }
         }

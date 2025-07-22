@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "C5U5R+VI7FE=",
+  "dgSpecHash": "lyEURVMwqQk=",
   "success": true,
-  "projectFilePath": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\WebApplicationMVC.csproj",
+  "projectFilePath": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\WebApplicationMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VICTUS HELLO\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\VICTUS HELLO\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

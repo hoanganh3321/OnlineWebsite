@@ -13,6 +13,7 @@ namespace WebApplicationAPI
 {
     public class Program
     {
+        //"applicationUrl": "https://localhost:7224;http://localhost:5114",
         private static IEdmModel GetEdmModel()
         {
             ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
@@ -50,17 +51,26 @@ namespace WebApplicationAPI
             builder.Services.AddSignalR();
             builder.Services.AddScoped<IMessageRepository, MessageRepository>();
             builder.Services.AddScoped<IMessageService, MessageService>();
+
             builder.Services.AddScoped<IFoodRepositories, FoodRepositories>();
             builder.Services.AddScoped<IFoodServices, FoodServices>();
+
             builder.Services.AddScoped<IUserRepositories, UserRepositories>();
             builder.Services.AddScoped<IUserServices, UserServices>();
+
             builder.Services.AddScoped<IAIRecommendationService, AIRecommendationService>();
             builder.Services.AddScoped<ICategoryRepositories, CategoryRepositories>();
             builder.Services.AddScoped<ICategoryServices, CategoryServices>();
+
             builder.Services.AddScoped<IOrderServices, OrderServices>();
             builder.Services.AddScoped<IOrderRepositories, OrderRepositories>();
+
             builder.Services.AddScoped<IOrderDetailRepositories, OrderDetailRepositories>();
             builder.Services.AddScoped<IOrderDetailServices, OrderDetailServices>();
+
+            builder.Services.AddScoped<IPaymentRepositories, PaymentRepositories>();
+            builder.Services.AddScoped<IPaymentServices, PaymentServices>();
+            builder.Services.AddScoped<VnPayService>();
 
             builder.Services.AddControllers()
                 .AddOData(option => option.Select().Filter()
@@ -81,10 +91,10 @@ namespace WebApplicationAPI
             {
                 options.AddPolicy("AllowSpecificOrigin", policy =>
                 {
-                    policy.WithOrigins("https://localhost:7266") // Nguồn gốc của client
+                    policy.WithOrigins("https://localhost:7266") 
                           .AllowAnyHeader()
                           .AllowAnyMethod()
-                          .AllowCredentials(); // Cho phép credentials
+                          .AllowCredentials(); 
                 });
             });
 
@@ -93,13 +103,13 @@ namespace WebApplicationAPI
             // Configure the HTTP request pipeline
             app.UseHttpsRedirection();
             app.UseRouting();
-            app.UseCors("AllowSpecificOrigin"); // Sử dụng chính sách đã định nghĩa
+            app.UseCors("AllowSpecificOrigin"); 
             app.UseSession();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapHub<ChatHub.ChatHubb>("/chatHub"); // Đảm bảo tên hub khớp
+                endpoints.MapHub<ChatHub.ChatHubb>("/chatHub"); 
                 endpoints.MapControllers();
             });
 

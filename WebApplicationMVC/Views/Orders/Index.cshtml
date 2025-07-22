@@ -1,0 +1,93 @@
+﻿@model List<ClassLibraryDATA.ViewModels.OrdersView>
+@{
+	ViewData["Title"] = "Danh sách hóa đơn";
+}
+
+<h2>@ViewData["Title"]</h2>
+@if (TempData["SuccessMessage"] != null)
+{
+	<div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+	<div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+@if (!Model.Any())
+{
+	<p class="text-danger">Không có hóa đơn nào!</p>
+}
+else
+{
+	<table class="table table-bordered table-striped">
+		<thead>
+			<tr>
+				<th>#</th>
+				<th>Người đặt</th>
+				<th>Trạng thái</th>
+				<th>Phương thức thanh toán</th>
+				<th>Ngày tạo</th>
+				<th>Chi tiết món ăn</th>
+				<th>Tổng tiền hóa đơn</th>
+			</tr>
+		</thead>
+		<tbody>
+			@for (int i = 0; i < Model.Count; i++)
+			{
+				var bill = Model[i];
+				<tr>
+					<td>@(i + 1)</td>
+					<td>@bill.UserName</td>
+					<td>
+
+						@(bill.OrderStatus ?? "Chưa cập nhật")
+						<br />
+						<form method="post" asp-action="EditStatus">
+							<input type="hidden" name="id" value="@bill.Id" />
+							<label for="orderStatus">Trạng thái đơn hàng:</label>
+							<select name="orderStatus" id="orderStatus">
+								<option value="Pending" selected="@(bill.OrderStatus == "Pending" ? "selected" : null)">Chờ xử lý</option>
+								<option value="Processing" selected="@(bill.OrderStatus == "Processing" ? "selected" : null)">Đã xác nhận</option>
+								<option value="Completed" selected="@(bill.OrderStatus == "Completed" ? "selected" : null)">Đang giao</option>
+								<option value="Canceled" selected="@(bill.OrderStatus == "Canceled" ? "selected" : null)">Hủy bỏ</option>
+							</select>
+							<button type="submit">Lưu</button>
+						</form>
+					</td>
+					<td>@(bill.PaymentMethod ?? "Chưa chọn")</td>
+					<td>@(bill.CreatedAt?.ToString("dd/MM/yyyy HH:mm") ?? "N/A")</td>
+					<td>
+						@if (bill.OrderDetails.Any())
+						{
+							<table class="table table-sm table-hover">
+								<thead>
+									<tr>
+										<th>Món ăn</th>
+										<th>Số lượng</th>
+										<th>Giá</th>
+										<th>Tổng</th>
+									</tr>
+								</thead>
+								<tbody>
+									@foreach (var item in bill.OrderDetails)
+									{
+										<tr>
+											<td>@item.FoodName</td>
+											<td>@item.Quantity</td>
+											<td>@item.Price.ToString("N0") ₫</td>
+											<td>@(item.TotalPrice?.ToString("N0") ?? (item.Price * item.Quantity).ToString("N0")) ₫</td>
+										</tr>
+									}
+								</tbody>
+							</table>
+						}
+						else
+						{
+							<p>Không có chi tiết món ăn.</p>
+						}
+					</td>
+					<td><strong>@bill.TotalBill.ToString("N0") ₫</strong></td>
+				</tr>
+			}
+		</tbody>
+	</table>
+}

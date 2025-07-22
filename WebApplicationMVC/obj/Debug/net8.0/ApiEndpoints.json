@@ -105,6 +105,26 @@
   },
   {
     "ContainingType": "WebApplicationAPI.Controllers.OrderController",
+    "Method": "GetBillsById",
+    "RelativePath": "api/Order/CustomerGetBills",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ClassLibraryDATA.ViewModels.OrdersView, ClassLibraryDATA, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationAPI.Controllers.OrderController",
     "Method": "CustomerOrder",
     "RelativePath": "api/Order/CustomerOrder/{foodId}/{quantity}",
     "HttpMethod": "POST",
@@ -133,6 +153,63 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "WebApplicationAPI.Controllers.OrderController",
+    "Method": "EditStatus",
+    "RelativePath": "api/Order/EditStatus/{id}/{orderStatus}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "orderStatus",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplicationAPI.Controllers.OrderController",
+    "Method": "GetAllBills",
+    "RelativePath": "api/Order/getallbill",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplicationAPI.Controllers.PaymentController",
+    "Method": "CreatePayment",
+    "RelativePath": "api/Payment/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ClassLibraryDATA.DTO.PaymentRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplicationAPI.Controllers.PaymentController",
+    "Method": "VnPayReturn",
+    "RelativePath": "api/Payment/vnpay-return",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "WebApplicationAPI.Controllers.UserController",

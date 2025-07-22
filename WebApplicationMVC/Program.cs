@@ -35,10 +35,10 @@ namespace WebApplicationMVC
             });
             builder.Services.AddLogging(logging =>
             {
-                logging.ClearProviders(); // Xóa các nhà cung cấp mặc định (tùy chọn)
-                logging.AddConsole(); // Ghi log vào console
-                logging.AddDebug(); // Ghi log vào cửa sổ Debug của IDE
-                                    // logging.AddEventSourceLogger(); // (Tùy chọn) Ghi log vào Event Source
+                logging.ClearProviders(); 
+                logging.AddConsole(); 
+                logging.AddDebug(); 
+                                    
             });
             builder.Services.AddDbContext<FoodDeliverContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("MyDB")));
@@ -60,6 +60,10 @@ namespace WebApplicationMVC
 
             builder.Services.AddScoped<IOrderDetailRepositories, OrderDetailRepositories>();
             builder.Services.AddScoped<IOrderDetailServices, OrderDetailServices>();
+
+            builder.Services.AddScoped<IPaymentRepositories, PaymentRepositories>();
+            builder.Services.AddScoped<IPaymentServices, PaymentServices>();
+            builder.Services.AddScoped<VnPayService>();
 
             var app = builder.Build();
 

@@ -3650,11 +3650,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\WebApplicationMVC.csproj",
+      "projectUniqueName": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\WebApplicationMVC.csproj",
       "projectName": "WebApplicationMVC",
-      "projectPath": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\WebApplicationMVC.csproj",
+      "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\WebApplicationMVC.csproj",
       "packagesPath": "C:\\Users\\VICTUS HELLO\\.nuget\\packages\\",
-      "outputPath": "D:\\prn232\\PROJECTP_RN232\\WebApplicationMVC\\obj\\",
+      "outputPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3675,11 +3675,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj": {
-              "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj"
+            "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj": {
+              "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj"
             },
-            "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\WebApplicationAPI.csproj": {
-              "projectPath": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\WebApplicationAPI.csproj"
+            "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\WebApplicationAPI.csproj": {
+              "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\WebApplicationAPI.csproj"
             }
           }
         }

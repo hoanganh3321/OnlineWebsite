@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\WebApplicationAPI.csproj": {}
+    "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\WebApplicationAPI.csproj": {}
   },
   "projects": {
-    "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj": {
+    "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj",
+        "projectUniqueName": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj",
         "projectName": "ClassLibraryDATA",
-        "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj",
+        "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj",
         "packagesPath": "C:\\Users\\VICTUS HELLO\\.nuget\\packages\\",
-        "outputPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\obj\\",
+        "outputPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,14 +99,14 @@
         }
       }
     },
-    "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\ClassLibraryREPO.csproj": {
+    "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\ClassLibraryREPO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\ClassLibraryREPO.csproj",
+        "projectUniqueName": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\ClassLibraryREPO.csproj",
         "projectName": "ClassLibraryREPO",
-        "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\ClassLibraryREPO.csproj",
+        "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\ClassLibraryREPO.csproj",
         "packagesPath": "C:\\Users\\VICTUS HELLO\\.nuget\\packages\\",
-        "outputPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\obj\\",
+        "outputPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -127,8 +127,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj": {
-                "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj"
+              "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj": {
+                "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj"
               }
             }
           }
@@ -168,14 +168,14 @@
         }
       }
     },
-    "D:\\prn232\\PROJECTP_RN232\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj": {
+    "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\prn232\\PROJECTP_RN232\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj",
+        "projectUniqueName": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj",
         "projectName": "ClassLibrarySERVICES",
-        "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj",
+        "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj",
         "packagesPath": "C:\\Users\\VICTUS HELLO\\.nuget\\packages\\",
-        "outputPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibrarySERVICES\\obj\\",
+        "outputPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -196,11 +196,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj": {
-                "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj"
+              "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj": {
+                "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj"
               },
-              "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\ClassLibraryREPO.csproj": {
-                "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\ClassLibraryREPO.csproj"
+              "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\ClassLibraryREPO.csproj": {
+                "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\ClassLibraryREPO.csproj"
               }
             }
           }
@@ -250,14 +250,14 @@
         }
       }
     },
-    "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\WebApplicationAPI.csproj": {
+    "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\WebApplicationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\WebApplicationAPI.csproj",
+        "projectUniqueName": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\WebApplicationAPI.csproj",
         "projectName": "WebApplicationAPI",
-        "projectPath": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\WebApplicationAPI.csproj",
+        "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\WebApplicationAPI.csproj",
         "packagesPath": "C:\\Users\\VICTUS HELLO\\.nuget\\packages\\",
-        "outputPath": "D:\\prn232\\PROJECTP_RN232\\WebApplicationAPI\\obj\\",
+        "outputPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -278,14 +278,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj": {
-                "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj"
+              "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj": {
+                "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj"
               },
-              "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\ClassLibraryREPO.csproj": {
-                "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryREPO\\ClassLibraryREPO.csproj"
+              "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\ClassLibraryREPO.csproj": {
+                "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\ClassLibraryREPO.csproj"
               },
-              "D:\\prn232\\PROJECTP_RN232\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj": {
-                "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj"
+              "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj": {
+                "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj"
               }
             }
           }

@@ -9,69 +9,77 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebApplicationMVC
 build_property.RootNamespace = WebApplicationMVC
-build_property.ProjectDir = D:\prn232\PROJECTP_RN232\WebApplicationMVC\
+build_property.ProjectDir = D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\prn232\PROJECTP_RN232\WebApplicationMVC
+build_property.MSBuildProjectDirectory = D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/AdminChats/Index.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/AdminChats/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5DaGF0c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/Chats/Index.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Chats/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/Foods/Detail.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Foods/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9vZHNcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/Home/Chat.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Home/Chat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGF0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/Home/Index.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/Home/Privacy.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/Shared/Error.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Orders/ViewOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXFZpZXdPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/Users/Index.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Users/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/Users/Login.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/Users/Register.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Users/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/_ViewImports.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/_ViewStart.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/prn232/PROJECTP_RN232/WebApplicationMVC/Views/Shared/_Layout.cshtml]
+[D:/prn232/PROJECTP_RN232 - Copy/WebApplicationMVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-4abxrxtqcp

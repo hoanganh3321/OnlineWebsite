@@ -5023,11 +5023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj",
+      "projectUniqueName": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj",
       "projectName": "ClassLibraryDATA",
-      "projectPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\ClassLibraryDATA.csproj",
+      "projectPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ClassLibraryDATA.csproj",
       "packagesPath": "C:\\Users\\VICTUS HELLO\\.nuget\\packages\\",
-      "outputPath": "D:\\prn232\\PROJECTP_RN232\\ClassLibraryDATA\\obj\\",
+      "outputPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

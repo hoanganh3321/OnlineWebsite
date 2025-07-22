@@ -6,12 +6,13 @@ using System.Text;
 using System.Threading.Tasks;
 using ClassLibraryDATA.DTO;
 using ClassLibraryDATA.Models;
+using ClassLibraryDATA.ViewModels;
 using ClassLibraryREPO;
 using Microsoft.AspNetCore.Http;
 
 namespace ClassLibrarySERVICES
 {
-    public class OrderServices :IOrderServices
+    public class OrderServices : IOrderServices
     {
 
         private readonly IOrderRepositories _repo;
@@ -36,7 +37,7 @@ namespace ClassLibrarySERVICES
             existingOrder.TotalAmount = await _Odrepo.GetTotalAmountByOrderId(existingOrder.OrderId) ?? 0;
             await _Odrepo.UpdateOrderAsync(existingOrder);
 
-            // ✅ Map sang DTO để tránh vòng lặp
+       
             var orderDetails = existingOrder.OrderDetails.Select(od => new OrderDetailDTO
             {
                 Quantity = od.Quantity,
@@ -98,7 +99,7 @@ namespace ClassLibrarySERVICES
             return newOrder;
         }
 
-        // 🔹 3️⃣ Thêm hoặc cập nhật OrderDetail (giỏ hàng)
+        //    Thêm hoặc cập nhật OrderDetail (giỏ hàng)
         private async Task AddOrUpdateOrderDetail(int orderId, int foodId, int quantity, decimal price)
         {
             // Kiểm tra xem sản phẩm này đã có trong giỏ hàng chưa
@@ -126,5 +127,24 @@ namespace ClassLibrarySERVICES
             }
         }
 
+        public async Task<List<OrdersView>> GetAllBillAsync()
+        {
+            return await _repo.GetAllBillAsync();
+        }
+
+        public async Task<Order?> GetOrderByIdAsync(int id)
+        {
+            return await _repo.GetOrderByIdAsync(id);
+        }
+
+        public async Task<bool> EditStatus(int id, string orderStatus)
+        {
+            return await _repo.EditStatus(id, orderStatus);
+        }
+
+        public async Task<List<OrdersView>> GetAllBillByUserId(int userId)
+        {
+            return await _repo.GetAllOrdersAsyncByUserId(userId);
+        }
     }
 }

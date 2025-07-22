@@ -1,0 +1,109 @@
+﻿@model List<ClassLibraryDATA.ViewModels.OrdersView>
+@{
+    ViewData["Title"] = "Đơn hàng của tôi";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (!Model.Any())
+{
+    <p class="text-danger">Bạn chưa có đơn hàng nào!</p>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Trạng thái</th>
+                <th>Phương thức thanh toán</th>
+                <th>Ngày tạo</th>
+                <th>Chi tiết món ăn</th>
+                <th>Tổng tiền hóa đơn</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                var bill = Model[i];
+                <tr>
+                    <td>@(i + 1)</td>
+                    <td>@bill.Id</td>
+                    <td>@bill.UserName</td>
+                    <td>@(bill.OrderStatus ?? "Chưa cập nhật")</td>
+                    <td>@(bill.PaymentMethod ?? "Chưa chọn")</td>
+                    <td>@(bill.CreatedAt?.ToString("dd/MM/yyyy HH:mm") ?? "N/A")</td>
+                    <td>
+                        @if (bill.OrderDetails.Any())
+                        {
+                            <table class="table table-sm table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Món ăn</th>
+                                        <th>Số lượng</th>
+                                        <th>Giá</th>
+                                        <th>Tổng</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in bill.OrderDetails)
+                                    {
+                                        <tr>
+                                            <td>@item.FoodName</td>
+                                            <td>@item.Quantity</td>
+                                            <td>@item.Price.ToString("N0") ₫</td>
+                                            <td>@(item.TotalPrice?.ToString("N0") ?? (item.Price * item.Quantity).ToString("N0")) ₫</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                        else
+                        {
+                            <p>Không có chi tiết món ăn.</p>
+                        }
+                    </td>
+                    <td>
+                        <strong>@bill.TotalBill.ToString("N0") ₫</strong>
+                        <br />
+                        <button class="btn btn-success mt-2"
+                                onclick="payVnPay('@bill.OdId', '@bill.TotalBill')">
+                            Thanh toán VNPay
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@section Scripts {
+    <script>
+        async function payVnPay(orderId, amount) {
+            try {
+                const response = await fetch("https://localhost:7224/api/payment/create", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ orderId: parseInt(orderId), amount: parseFloat(amount) })
+                });
+
+                if (!response.ok) {
+                    alert("Không thể tạo yêu cầu thanh toán!");
+                    return;
+                }
+
+                const data = await response.json();
+                if (data.paymentUrl) {
+                    window.location.href = data.paymentUrl; 
+                } else {
+                    alert("Không nhận được URL thanh toán!");
+                }
+            } catch (error) {
+                console.error(error);
+                alert("Có lỗi xảy ra khi thanh toán!");
+            }
+        }
+    </script>
+}
+
