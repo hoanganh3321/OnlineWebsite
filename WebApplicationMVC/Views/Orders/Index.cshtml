@@ -41,17 +41,6 @@ else
 
 						@(bill.OrderStatus ?? "Chưa cập nhật")
 						<br />
-						<form method="post" asp-action="EditStatus">
-							<input type="hidden" name="id" value="@bill.Id" />
-							<label for="orderStatus">Trạng thái đơn hàng:</label>
-							<select name="orderStatus" id="orderStatus">
-								<option value="Pending" selected="@(bill.OrderStatus == "Pending" ? "selected" : null)">Chờ xử lý</option>
-								<option value="Processing" selected="@(bill.OrderStatus == "Processing" ? "selected" : null)">Đã xác nhận</option>
-								<option value="Completed" selected="@(bill.OrderStatus == "Completed" ? "selected" : null)">Đang giao</option>
-								<option value="Canceled" selected="@(bill.OrderStatus == "Canceled" ? "selected" : null)">Hủy bỏ</option>
-							</select>
-							<button type="submit">Lưu</button>
-						</form>
 					</td>
 					<td>@(bill.PaymentMethod ?? "Chưa chọn")</td>
 					<td>@(bill.CreatedAt?.ToString("dd/MM/yyyy HH:mm") ?? "N/A")</td>

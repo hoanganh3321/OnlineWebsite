@@ -11,9 +11,11 @@ namespace ClassLibrarySERVICES
     public class PaymentServices : IPaymentServices
     {
         private readonly IPaymentRepositories _paymentRepo;
-        public PaymentServices(IPaymentRepositories paymentRepo)
+        private readonly IOrderRepositories _orderRepo;
+        public PaymentServices(IPaymentRepositories paymentRepo, IOrderRepositories orderRepo)
         {
             _paymentRepo = paymentRepo;
+            _orderRepo = orderRepo;
         }
 
         public Payment CreatePendingPayment(int orderId, decimal amount)
@@ -25,7 +27,7 @@ namespace ClassLibrarySERVICES
                 PaymentStatus = "Pending",
                 PaymentDate = DateTime.Now,
                 PaymentMethod = "VNPay",
-               // TransactionNo =,
+                // TransactionNo =,
                 VnpTxnRef = DateTime.Now.Ticks.ToString()
             };
 
@@ -45,17 +47,34 @@ namespace ClassLibrarySERVICES
             }
         }
 
-        public void UpdatePaymentSuccess(string vnpTxnRef, string transactionNo)
+        public async Task UpdatePaymentStatusAsync(string vnpTxnRef)
+        {
+            var result = _paymentRepo.UpdatePaymentStatusAsync(vnpTxnRef);
+        }
+
+        public void UpdatePaymentSuccess(string vnpTxnRef)
         {
             var payment = _paymentRepo.GetByVnpTxnRef(vnpTxnRef);
             if (payment != null)
             {
-                payment.PaymentStatus = "Success";
-                payment.TransactionNo = transactionNo;
+             
+                payment.PaymentStatus = "Completed";
                 payment.PaymentDate = DateTime.Now;
+
                 _paymentRepo.Update(payment);
+              
+                var order = payment.Order;
+                               
+                    order.OrderStatus = "Completed";
+                    order.PaymentMethod = "Online";
+                    order.CreatedAt = DateTime.Now;
+                    _orderRepo.Update(order);
+                                   
+                _orderRepo.Save();
                 _paymentRepo.Save();
+                
             }
         }
+
     }
 }

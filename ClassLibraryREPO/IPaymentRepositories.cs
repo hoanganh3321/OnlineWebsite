@@ -10,6 +10,7 @@ namespace ClassLibraryREPO
 {
     public interface IPaymentRepositories : IGenericRepository<Payment>
     {
+        Task UpdatePaymentStatusAsync(string vnpTxnRef);
         Payment? GetByVnpTxnRef(string vnpTxnRef);
     }
 }

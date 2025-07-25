@@ -5,16 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using ClassLibraryDATA.Models;
 using ClassLibraryDATA.ViewModels;
+using ClassLibraryREPO.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClassLibraryREPO
 {
-    public class OrderRepositories : IOrderRepositories
+    public class OrderRepositories : GenericRepository<Order>, IOrderRepositories
     {
-        private readonly FoodDeliverContext _context;
-        public OrderRepositories(FoodDeliverContext context)
+        public OrderRepositories(FoodDeliverContext context) : base(context)
         {
-            _context = context;
         }
 
         public async Task<bool?> CreateOrderAsync(Order order)

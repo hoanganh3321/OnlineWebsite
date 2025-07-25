@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using ClassLibraryDATA.Models;
 using ClassLibraryDATA.ViewModels;
+using ClassLibraryREPO.Repositories;
 
 namespace ClassLibraryREPO
 {
-    public interface IOrderRepositories
+    public interface IOrderRepositories : IGenericRepository<Order>
     {
         Task<List<OrdersView>> GetAllOrdersAsyncByUserId(int userId);
         Task<bool> EditStatus(int id, string orderStatus);

@@ -9,8 +9,9 @@ namespace ClassLibrarySERVICES
 {
     public interface IPaymentServices
     {
+        Task UpdatePaymentStatusAsync(string vnpTxnRef);
         Payment CreatePendingPayment(int orderId, decimal amount);
-        void UpdatePaymentSuccess(string vnpTxnRef, string transactionNo);
+        void UpdatePaymentSuccess(string vnpTxnRef);
         void UpdatePaymentFail(string vnpTxnRef);
     }
 }

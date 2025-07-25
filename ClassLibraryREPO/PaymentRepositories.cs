@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ClassLibraryDATA.Models;
 using ClassLibraryREPO.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace ClassLibraryREPO
 {
@@ -16,7 +17,23 @@ namespace ClassLibraryREPO
 
         public Payment? GetByVnpTxnRef(string vnpTxnRef)
         {
-            return _dbSet.FirstOrDefault(p => p.VnpTxnRef == vnpTxnRef);
+            return _dbSet.Include(p => p.Order).FirstOrDefault(p => p.VnpTxnRef == vnpTxnRef);
+        }
+
+        public async Task UpdatePaymentStatusAsync(string vnpTxnRef)
+        {
+            var payment = await _context.Payments
+       .FirstOrDefaultAsync(p => p.VnpTxnRef == vnpTxnRef);
+
+            if (payment == null)
+                throw new Exception("Payment not found");
+
+           
+            payment.PaymentStatus = "Completed";
+
+            payment.PaymentDate = DateTime.Now;
+
+            await _context.SaveChangesAsync();
         }
     }
 }

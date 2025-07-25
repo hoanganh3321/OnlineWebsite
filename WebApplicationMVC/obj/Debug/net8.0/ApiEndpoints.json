@@ -222,6 +222,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "WebApplicationAPI.Controllers.ProductReviewController",
+    "Method": "AddReview",
+    "RelativePath": "api/ProductReview",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ClassLibraryDATA.DTO.CreateReviewDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplicationAPI.Controllers.ProductReviewController",
+    "Method": "GetReviews",
+    "RelativePath": "api/ProductReview/{foodId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foodId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApplicationAPI.Controllers.UserController",
     "Method": "GetAllUser",
     "RelativePath": "api/User/getalluser",

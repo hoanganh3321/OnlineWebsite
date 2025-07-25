@@ -1,0 +1,247 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\prn232\\PROJECTP_RN232 - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|d:\\prn232\\projectp_rn232 - copy\\classlibraryservices\\paymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|solutionrelative:classlibraryservices\\paymentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\views\\foods\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\foods\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\views\\chats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\chats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56655496-CF25-4867-92BD-9BA89A5AA5F7}|ClassLibraryREPO\\ClassLibraryREPO.csproj|d:\\prn232\\projectp_rn232 - copy\\classlibraryrepo\\productreviewrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56655496-CF25-4867-92BD-9BA89A5AA5F7}|ClassLibraryREPO\\ClassLibraryREPO.csproj|solutionrelative:classlibraryrepo\\productreviewrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationapi\\controllers\\productreviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\controllers\\productreviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|d:\\prn232\\projectp_rn232 - copy\\classlibraryservices\\iproductreviewservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|solutionrelative:classlibraryservices\\iproductreviewservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|d:\\prn232\\projectp_rn232 - copy\\classlibraryservices\\productreviewservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5637E6B-57B2-4C44-9B03-C52D77A8D9E3}|ClassLibrarySERVICES\\ClassLibrarySERVICES.csproj|solutionrelative:classlibraryservices\\productreviewservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56655496-CF25-4867-92BD-9BA89A5AA5F7}|ClassLibraryREPO\\ClassLibraryREPO.csproj|d:\\prn232\\projectp_rn232 - copy\\classlibraryrepo\\iproductreviewrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56655496-CF25-4867-92BD-9BA89A5AA5F7}|ClassLibraryREPO\\ClassLibraryREPO.csproj|solutionrelative:classlibraryrepo\\iproductreviewrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\controllers\\productreviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\productreviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC48A78C-3828-4534-8358-F3F1121909FD}|ClassLibraryDATA\\ClassLibraryDATA.csproj|d:\\prn232\\projectp_rn232 - copy\\classlibrarydata\\viewmodels\\productreviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC48A78C-3828-4534-8358-F3F1121909FD}|ClassLibraryDATA\\ClassLibraryDATA.csproj|solutionrelative:classlibrarydata\\viewmodels\\productreviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationapi\\viewmodel\\productreviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6198F04-A19D-4847-848A-E94B9D3B1265}|WebApplicationAPI\\WebApplicationAPI.csproj|solutionrelative:webapplicationapi\\viewmodel\\productreviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|d:\\prn232\\projectp_rn232 - copy\\webapplicationmvc\\controllers\\foodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{980E003B-911A-4E2B-9418-DEEC1C5C9E0F}|WebApplicationMVC\\WebApplicationMVC.csproj|solutionrelative:webapplicationmvc\\controllers\\foodscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1154,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Views\\Foods\\Detail.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Foods\\Detail.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Views\\Foods\\Detail.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Foods\\Detail.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAnwK0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T16:41:05.21Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\appsettings.json",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\appsettings.json",
+              "RelativeToolTip": "WebApplicationAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-24T03:16:27.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Views\\Chats\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Chats\\Index.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Views\\Chats\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Chats\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T18:24:34.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebApplicationMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAYwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T18:24:02.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentServices.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\PaymentServices.cs",
+              "RelativeDocumentMoniker": "ClassLibrarySERVICES\\PaymentServices.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\PaymentServices.cs",
+              "RelativeToolTip": "ClassLibrarySERVICES\\PaymentServices.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:17:34.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductReviewServices.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\IProductReviewServices.cs",
+              "RelativeDocumentMoniker": "ClassLibrarySERVICES\\IProductReviewServices.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\IProductReviewServices.cs",
+              "RelativeToolTip": "ClassLibrarySERVICES\\IProductReviewServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:11:14.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductReviewRepositories.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\IProductReviewRepositories.cs",
+              "RelativeDocumentMoniker": "ClassLibraryREPO\\IProductReviewRepositories.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\IProductReviewRepositories.cs",
+              "RelativeToolTip": "ClassLibraryREPO\\IProductReviewRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:07:35.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductReviewViewModel.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ViewModels\\ProductReviewViewModel.cs",
+              "RelativeDocumentMoniker": "ClassLibraryDATA\\ViewModels\\ProductReviewViewModel.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryDATA\\ViewModels\\ProductReviewViewModel.cs",
+              "RelativeToolTip": "ClassLibraryDATA\\ViewModels\\ProductReviewViewModel.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:09:47.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductReviewViewModel.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\ViewModel\\ProductReviewViewModel.cs",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\ViewModel\\ProductReviewViewModel.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\ViewModel\\ProductReviewViewModel.cs",
+              "RelativeToolTip": "WebApplicationAPI\\ViewModel\\ProductReviewViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:08:17.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductReviewRepositories.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\ProductReviewRepositories.cs",
+              "RelativeDocumentMoniker": "ClassLibraryREPO\\ProductReviewRepositories.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibraryREPO\\ProductReviewRepositories.cs",
+              "RelativeToolTip": "ClassLibraryREPO\\ProductReviewRepositories.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:07:40.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductReviewServices.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\ProductReviewServices.cs",
+              "RelativeDocumentMoniker": "ClassLibrarySERVICES\\ProductReviewServices.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\ClassLibrarySERVICES\\ProductReviewServices.cs",
+              "RelativeToolTip": "ClassLibrarySERVICES\\ProductReviewServices.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:07:23.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductReviewController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\Controllers\\ProductReviewController.cs",
+              "RelativeDocumentMoniker": "WebApplicationAPI\\Controllers\\ProductReviewController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationAPI\\Controllers\\ProductReviewController.cs",
+              "RelativeToolTip": "WebApplicationAPI\\Controllers\\ProductReviewController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwC0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:06:58.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FoodsController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Controllers\\FoodsController.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\FoodsController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Controllers\\FoodsController.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Controllers\\FoodsController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:02:12.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductReviewsController.cs",
+              "DocumentMoniker": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Controllers\\ProductReviewsController.cs",
+              "RelativeDocumentMoniker": "WebApplicationMVC\\Controllers\\ProductReviewsController.cs",
+              "ToolTip": "D:\\prn232\\PROJECTP_RN232 - Copy\\WebApplicationMVC\\Controllers\\ProductReviewsController.cs",
+              "RelativeToolTip": "WebApplicationMVC\\Controllers\\ProductReviewsController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwDQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:01:16.016Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -113,14 +113,14 @@ D:\prn232\PROJECTP_RN232\WebApplicationMVC\obj\Debug\net8.0\WebApplicationMVC.pd
 D:\prn232\PROJECTP_RN232\WebApplicationMVC\obj\Debug\net8.0\WebApplicationMVC.genruntimeconfig.cache
 D:\prn232\PROJECTP_RN232\WebApplicationMVC\obj\Debug\net8.0\ref\WebApplicationMVC.dll
 D:\prn232\PROJECTP_RN232\WebApplicationMVC\obj\Debug\net8.0\WebApplicationMVC.sourcelink.json
-D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\WebApplicationAPI.staticwebassets.endpoints.json
-D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\appsettings.Development.json
-D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\appsettings.json
-D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\WebApplicationMVC.staticwebassets.endpoints.json
 D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\WebApplicationAPI.deps.json
 D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\WebApplicationAPI.runtimeconfig.json
+D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\WebApplicationAPI.staticwebassets.endpoints.json
 D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\WebApplicationAPI.exe
+D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\appsettings.Development.json
+D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\appsettings.json
 D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\WebApplicationMVC.staticwebassets.runtime.json
+D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\WebApplicationMVC.staticwebassets.endpoints.json
 D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\WebApplicationMVC.exe
 D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\WebApplicationMVC.deps.json
 D:\prn232\PROJECTP_RN232 - Copy\WebApplicationMVC\bin\Debug\net8.0\WebApplicationMVC.runtimeconfig.json

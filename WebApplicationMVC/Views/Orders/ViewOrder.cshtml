@@ -77,10 +77,13 @@ else
                     <td>
                         <strong>@bill.TotalBill.ToString("N0") ₫</strong>
                         <br />
-                        <button class="btn btn-success mt-2"
-                                onclick="payVnPay('@bill.OdId', '@bill.TotalBill')">
-                            Thanh toán VNPay
-                        </button>
+                        @if (bill.OrderStatus == "Pending")
+                        {
+                            <button class="btn btn-success mt-2"
+                                    onclick="payVnPay('@bill.OdId', '@bill.TotalBill')">
+                                Thanh toán VNPay
+                            </button>
+                        }
                     </td>
                 </tr>
             }

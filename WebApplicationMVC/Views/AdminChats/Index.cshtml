@@ -67,9 +67,9 @@
 	connection.start().catch(err => console.error(err));
 
 	// Thêm khách hàng vào danh sách bên trái
-	function addCustomerToList(customerId) {
+	function addCustomerToList(customerId, customerName) {
 		const li = document.createElement("li");
-		li.id = `customer-${customerId}`;
+		li.id = `customer-${customerName}`;
 		li.textContent = "Khách hàng #" + customerId;
 		li.style.cursor = "pointer";
 		li.style.padding = "5px";
@@ -107,7 +107,7 @@
 				method: "GET"
 			});
 			const customers = await res.json();
-			customers.forEach(id => addCustomerToList(id));
+			customers.forEach(c => addCustomerToList(c.userId, c.fullName));
 		} catch (err) {
 			console.error("Lỗi load danh sách khách hàng:", err);
 		}

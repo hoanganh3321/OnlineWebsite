@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibraryDATA.DTO;
 using ClassLibraryDATA.Models;
 using ClassLibraryREPO;
 
@@ -17,7 +18,7 @@ namespace ClassLibrarySERVICES
             _repo = repo;
         }
 
-        public async Task<IEnumerable<int>> GetAllCustomersChattedAsync()
+        public async Task<IEnumerable<CustomerChatDto>> GetAllCustomersChattedAsync()
         {
             return await _repo.GetAllCustomersChattedAsync();
         }

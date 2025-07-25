@@ -35,35 +35,35 @@ namespace WebApplicationAPI.Controllers
         [HttpGet("vnpay-return")]
         public IActionResult VnPayReturn()
         {
+            var vnpTxnRef = Request.Query["vnp_TxnRef"];
             var responseCode = Request.Query["vnp_ResponseCode"];
             var transStatus = Request.Query["vnp_TransactionStatus"];
 
             string message;
             if (responseCode == "00" && transStatus == "00")
             {
-                // _paymentService.UpdatePaymentStatus();
-                message = "✅ Thanh toán thành công!";
+                _paymentService.UpdatePaymentSuccess(vnpTxnRef);
+                message = " Thanh toán thành công!";
             }
             else
             {
-                message = "❌ Thanh toán thất bại!";
+                message = " Thanh toán thất bại!";
             }
 
             // Redirect về Razor page kèm message
             return Redirect($"https://localhost:7266/Orders/ViewOrder?message={Uri.EscapeDataString(message)}");
+            
         }
 
 
         [HttpGet("vnpay-ipn")]
         public IActionResult VnPayIpn()
         {
+            
             var result = _vnPayService.ProcessIpn(Request.Query);
 
             if (!result.IsValid)
                 return Ok(new { RspCode = result.RspCode, Message = result.Message });
-
-            
-             
 
             return Ok(new { RspCode = result.RspCode, Message = result.Message });
         }

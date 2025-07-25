@@ -43,7 +43,7 @@ namespace WebApplicationAPI.Controllers
             return Ok(messages);
         }
 
-        
+        //https://localhost:7224/api/Chat/customers
         [AttributeRole("Admin")]
         [HttpGet("customers")]
         public async Task<IActionResult> GetAllCustomersChatted()

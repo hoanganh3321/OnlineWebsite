@@ -49,6 +49,7 @@ namespace WebApplicationAPI
                 options.UseSqlServer(builder.Configuration.GetConnectionString("MyDB")));
 
             builder.Services.AddSignalR();
+
             builder.Services.AddScoped<IMessageRepository, MessageRepository>();
             builder.Services.AddScoped<IMessageService, MessageService>();
 
@@ -71,6 +72,9 @@ namespace WebApplicationAPI
             builder.Services.AddScoped<IPaymentRepositories, PaymentRepositories>();
             builder.Services.AddScoped<IPaymentServices, PaymentServices>();
             builder.Services.AddScoped<VnPayService>();
+
+            builder.Services.AddScoped<IProductReviewRepositories, ProductReviewRepositories>();
+            builder.Services.AddScoped<IProductReviewServices, ProductReviewServices>();
 
             builder.Services.AddControllers()
                 .AddOData(option => option.Select().Filter()
@@ -106,10 +110,11 @@ namespace WebApplicationAPI
             app.UseCors("AllowSpecificOrigin"); 
             app.UseSession();
             app.UseAuthorization();
-
+            app.MapHub<ReviewHub>("/reviewHub");
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapHub<ChatHub.ChatHubb>("/chatHub"); 
+
                 endpoints.MapControllers();
             });
 

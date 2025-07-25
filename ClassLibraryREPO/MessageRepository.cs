@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibraryDATA.DTO;
 using ClassLibraryDATA.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,13 +24,22 @@ namespace ClassLibraryREPO
             await _context.SaveChangesAsync();
         }
 
-        public async Task<IEnumerable<int>> GetAllCustomersChattedAsync()
+        public async Task<IEnumerable<CustomerChatDto>> GetAllCustomersChattedAsync()
         {
             return await _context.Messages
-                 .Where(m => m.ReceiverId == 3)
-                 .Select(m => m.SenderId)
-                 .Distinct()
-                 .ToListAsync();
+               .Where(m => m.ReceiverId == 3)
+               .Select(m => m.SenderId)
+               .Distinct()
+               .Join(
+                   _context.Users,
+                   senderId => senderId,
+                   user => user.UserId,
+                   (senderId, user) => new CustomerChatDto
+                   {
+                       UserId = user.UserId,
+                       FullName = user.FullName
+                   }).ToListAsync();
+
         }
 
         public async Task<IEnumerable<Message>> GetMessagesAsync(int user1, int user2)
